@@ -21,7 +21,7 @@ void main()
     {
         printf("Enter your choice:");
         scanf("%d", &playerChoice);
-        compChoice = generateRandomNumber(2) + 1;
+        compChoice = generateRandomNumber(3) + 1;
         printf(" Computer chose %d and you chose %d\n ", compChoice, playerChoice);
         if (playerChoice == 1)
         {
