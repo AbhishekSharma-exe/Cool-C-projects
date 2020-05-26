@@ -29,12 +29,12 @@ void main()
             {
                 printf(" It's a draw!\n\n");
             }
-             if (compChoice == 2)
+             else if (compChoice == 2)
             {
                 printf(" Computer wins!\n\n ");
                 compScore++;
             }
-             if (compChoice == 3)
+            else if (compChoice == 3)
             {
                 printf(" %s wins \n\n ",name);
                 playerScore++;
@@ -47,11 +47,11 @@ void main()
                 printf(" You won a point %s \n\n ", name);
                 playerScore++;
             }
-             if (compChoice == 2)
+            else if (compChoice == 2)
             {
                 printf(" It's a draw!\n\n ");
             }
-             if (compChoice == 3)
+            else if (compChoice == 3)
             {
                 printf(" Oh no! Computer won this time :(\n\n ");
                 compScore++;
@@ -64,12 +64,12 @@ void main()
                 printf(" Computer wins a point \n\n ");
                 compScore++;
             }
-             if (compChoice == 2)
+            else if (compChoice == 2)
             {
                 printf(" %s got a point!\n\n ", name);
                 playerScore++;
             }
-             if (compChoice == 3)
+            else if (compChoice == 3)
             {
                 printf(" It's a draw!\n\n ");
             }
@@ -84,11 +84,11 @@ void main()
     {
         printf("Congrats! %s wins the game by %d-%d to computer\n ",name,playerScore, compScore);
     }
-     if (playerScore < compScore)
+    else if (playerScore < compScore)
     {
         printf("Computer won by %d-%d ! Better luck next time\n ", compScore, playerScore);
     }
-     if (playerScore == compScore)
+    else if (playerScore == compScore)
     {
         printf("What are the odds! It's a draw\n ");
     }
