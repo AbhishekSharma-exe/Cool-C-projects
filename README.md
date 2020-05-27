@@ -1,2 +1,1 @@
-# Cool-C-projects
-This repository contain projects made in C language.
+The old classic Rock,Paper and Scissors game.
