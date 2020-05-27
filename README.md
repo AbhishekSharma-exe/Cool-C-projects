@@ -1,2 +1,2 @@
 # Cool-C-projects
-This repository contain project made in C language("Cool" is a subjective term).
+This repository contain projects made in C language.
